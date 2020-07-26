@@ -1,0 +1,97 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3917000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.cybertek.step_definition.LibraryLoginStepDe.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T20:34:11.042Z",
+        "line": 28,
+        "name": "Student login scenario",
+        "description": "",
+        "id": "login-feature;student-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7742000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User logs in as student",
+            "match": {
+              "location": "com.cybertek.step_definition.LibraryLoginStepDe.user_logs_in_as_student()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 344000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should see dashboard",
+            "match": {
+              "location": "com.cybertek.step_definition.LibraryLoginStepDe.user_should_see_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@loginwithbackground"
+          },
+          {
+            "name": "@student"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "  NFG-112 Agile story:As a user, I should be able to login with correct credentials to different accounts.\n  .And dashboard should be displayed.\n  Accounts are: librarian, student, admin",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@loginwithbackground",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
