@@ -16,12 +16,12 @@ public class Hooks {
     //we wanna use that one just for specific scenarios,so what should we do? we can do like that -> @Before("@db")
     //we have another thing call order ,order is like priorty it gonna let you runn which one is first and second
     //@Before("@db")
-    //@Before(value = "@db",order = 1)//we putted that one 1 and that one gonna run first
+    @Before(value = "@db",order = 1)//we putted that one 1 and that one gonna run first
     public void setUodatebaseConnection(){
         System.out.println("--->Before Annotation: DB connection created <-------");
     }
 
-   // @After(order = 1)
+   @After(order = 1)
     public void tearDownScenario(Scenario scenario11){
 
        // System.out.println("---> After annotation:closing browser");
